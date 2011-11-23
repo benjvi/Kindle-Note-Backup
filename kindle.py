@@ -29,7 +29,6 @@ else:
 	#define the needed reg ex's
 	r_title_and_author = re.compile('.*')
 	r_author = re.compile(r'\(([^)]*)\)')
-	r_entrydivider = re.compile('==========')
 	r_comment = re.compile('.*$')
 	r_bookmark = re.compile('Bookmark')
 	r_note = re.compile('Note')
